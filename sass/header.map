@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "header.css",
+	"sources": [
+		"../css/header.scss"
+	],
+	"sourcesContent": [
+		".header-menu {\n  height: 264px;\n  width: 100%;\n\n  margin: 0 auto;\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n  background: #8BC6EC;\n  background-image: url(\"../escla4.jpg\");\n  background-image: url(\"../escla4.jpg\"), linear-gradient(135deg, #8BC6EC 0%, #2d37f8 100%) center no-repeat;\n  background-size: auto;\n  z-index: 1;\n\n\n}\n.sidebar {\n  display: flex;\n  align-items: center;\n\n}\n.hamburguer {  \n  i {\n    font-size: 3rem;\n    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);\n    -webkit-background-clip: text;\n    -webkit-text-fill-color: transparent;\n  }\n  .fa-times {\n    display: none;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,YAAY,CAAC;EACX,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EAEX,MAAM,EAAE,MAAM;EACd,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;EAC9B,WAAW,EAAE,MAAM;EACnB,UAAU,EAAE,OAAO;EACnB,gBAAgB,EAAE,oBAAoB;EACtC,gBAAgB,EAAE,oBAAoB,EAAE,iDAAiD,CAAC,MAAM,CAAC,SAAS;EAC1G,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,CAAC;CAGX;;;AACD,AAAA,QAAQ,CAAC;EACP,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;CAEpB;;;AACD,AACE,WADS,CACT,CAAC,CAAC;EACA,SAAS,EAAE,IAAI;EACf,gBAAgB,EAAE,iDAAiD;EACnE,uBAAuB,EAAE,IAAI;EAC7B,uBAAuB,EAAE,WAAW;CACrC;;;AANH,AAOE,WAPS,CAOT,SAAS,CAAC;EACR,OAAO,EAAE,IAAI;CACd"
+}

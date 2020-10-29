@@ -1,0 +1,35 @@
+/* line 1, ../../Imagens/geec/css/header.scss */
+.header-menu {
+  height: 264px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #8BC6EC;
+  background-image: url("../escla4.jpg");
+  background-image: url("../escla4.jpg"), linear-gradient(135deg, #8BC6EC 0%, #2d37f8 100%) center no-repeat;
+  background-size: auto;
+  z-index: 1;
+}
+
+/* line 17, ../../Imagens/geec/css/header.scss */
+.sidebar {
+  display: flex;
+  align-items: center;
+}
+
+/* line 23, ../../Imagens/geec/css/header.scss */
+.hamburguer i {
+  font-size: 3rem;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 29, ../../Imagens/geec/css/header.scss */
+.hamburguer .fa-times {
+  display: none;
+}
+
+/*# sourceMappingURL=header.css.map */

@@ -1,0 +1,133 @@
+/* line 1, ../../Imagens/geec/css/_header.scss */
+.header-menu {
+  height: 264px;
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background: #8BC6EC;
+  background-image: url("../foto.png");
+  background-image: url("../foto.png"), linear-gradient(135deg, #8BC6EC 0%, #2d37f8 100%) center no-repeat;
+  background-size: auto;
+  z-index: 1;
+}
+
+/* line 15, ../../Imagens/geec/css/_header.scss */
+.overley {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  position: fixed;
+  transform: scaleX(0);
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+/* line 24, ../../Imagens/geec/css/_header.scss */
+.menu {
+  padding: 32px 40px;
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  background-color: #fff;
+  z-index: 999;
+  box-sizing: 3px;
+  border-radius: 3px;
+  display: none;
+  cursor: pointer;
+}
+
+/* line 36, ../../Imagens/geec/css/_header.scss */
+.bar, .bar::before, .bar::after {
+  content: "";
+  display: none;
+  position: absolute;
+  width: 48px;
+  height: 32px;
+  background-color: #59C1EA;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transition: all 1s;
+}
+
+/* line 50, ../../Imagens/geec/css/_header.scss */
+.bar::before {
+  top: -32px;
+}
+
+/* line 53, ../../Imagens/geec/css/_header.scss */
+.bar::after {
+  top: 32px;
+}
+
+/* line 56, ../../Imagens/geec/css/_header.scss */
+.open .bar {
+  background-color: transparent;
+}
+
+/* line 59, ../../Imagens/geec/css/_header.scss */
+.open .bar::before {
+  transition: rotate(-45deg);
+}
+
+/* line 62, ../../Imagens/geec/css/_header.scss */
+.open .bar::before,
+.open::after {
+  top: 0;
+}
+
+/* line 66, ../../Imagens/geec/css/_header.scss */
+.sidebar {
+  width: 100%;
+  height: 96px;
+  display: block;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  background-color: transparent;
+  margin-top: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* line 76, ../../Imagens/geec/css/_header.scss */
+.sidebar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 81, ../../Imagens/geec/css/_header.scss */
+.sidebar ul li {
+  margin-top: 40px;
+}
+
+/* line 83, ../../Imagens/geec/css/_header.scss */
+.sidebar ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 64px;
+  padding: 0 15px;
+  display: block;
+  position: relative;
+}
+
+/* line 95, ../../Imagens/geec/css/_header.scss */
+.hamburguer i {
+  font-size: 3rem;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* line 101, ../../Imagens/geec/css/_header.scss */
+.hamburguer .fa-times {
+  display: none;
+}
+
+/*# sourceMappingURL=style.css.map */

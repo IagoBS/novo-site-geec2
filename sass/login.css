@@ -1,0 +1,79 @@
+/* line 59, ../../Imagens/geec/css/login.scss */
+.Container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 62, ../../Imagens/geec/css/login.scss */
+.Content {
+  width: 90%;
+  max-width: 320px;
+  text-align: center;
+  margin-top: 128px;
+}
+
+/* line 13, ../../Imagens/geec/css/login.scss */
+.Content form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+/* line 17, ../../Imagens/geec/css/login.scss */
+.Content form input {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  border: 0;
+  padding: 0px 16px;
+  height: 44px;
+  margin: 0 0 10px;
+}
+
+/* line 24, ../../Imagens/geec/css/login.scss */
+.Content form input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 28, ../../Imagens/geec/css/login.scss */
+.Content form span {
+  color: #F64C75;
+  align-self: center;
+  margin: 0 0 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* line 35, ../../Imagens/geec/css/login.scss */
+.Content form button {
+  margin: 5px 0 0;
+  height: 44px;
+  background: linear-gradient(253.58deg, #ffc000 1.55%, #ff8a00 95.8%);
+  color: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.2;
+}
+
+/* line 44, ../../Imagens/geec/css/login.scss */
+.Content form button:hover {
+  opacity: 0.6;
+}
+
+/* line 48, ../../Imagens/geec/css/login.scss */
+.Content form a {
+  color: #fff;
+  margin-top: 15px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+/* line 53, ../../Imagens/geec/css/login.scss */
+.Content form a:hover {
+  opacity: 1;
+}
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,49 @@
+/* line 1, ../../Imagens/geec/css/global.scss */
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+/* line 6, ../../Imagens/geec/css/global.scss */
+*:focus {
+  outline: 0;
+}
+
+/* line 9, ../../Imagens/geec/css/global.scss */
+*::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* line 15, ../../Imagens/geec/css/global.scss */
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  font-family: 'Roboto' sans-serif;
+  font-size: 10px;
+}
+
+/* line 21, ../../Imagens/geec/css/global.scss */
+body, input, button {
+  font: 14px 'Roboto', sans-serif;
+}
+
+/* line 24, ../../Imagens/geec/css/global.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 27, ../../Imagens/geec/css/global.scss */
+ul {
+  list-style: none;
+}
+
+/* line 30, ../../Imagens/geec/css/global.scss */
+button {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=global.css.map */
