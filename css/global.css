@@ -1,4 +1,4 @@
-/* line 1, ../../Imagens/geec/css/global.scss */
+/* line 1, ../../Documentos/novo-site-geec2/sass/global.scss */
 * {
   margin: 0;
   padding: 0;
@@ -6,19 +6,19 @@
   box-sizing: border-box;
 }
 
-/* line 6, ../../Imagens/geec/css/global.scss */
+/* line 6, ../../Documentos/novo-site-geec2/sass/global.scss */
 *:focus {
   outline: 0;
 }
 
-/* line 9, ../../Imagens/geec/css/global.scss */
+/* line 9, ../../Documentos/novo-site-geec2/sass/global.scss */
 *::before, *::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 15, ../../Imagens/geec/css/global.scss */
+/* line 15, ../../Documentos/novo-site-geec2/sass/global.scss */
 html {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
@@ -26,22 +26,22 @@ html {
   font-size: 10px;
 }
 
-/* line 21, ../../Imagens/geec/css/global.scss */
+/* line 21, ../../Documentos/novo-site-geec2/sass/global.scss */
 body, input, button {
   font: 14px 'Roboto', sans-serif;
 }
 
-/* line 24, ../../Imagens/geec/css/global.scss */
+/* line 24, ../../Documentos/novo-site-geec2/sass/global.scss */
 a {
   text-decoration: none;
 }
 
-/* line 27, ../../Imagens/geec/css/global.scss */
+/* line 27, ../../Documentos/novo-site-geec2/sass/global.scss */
 ul {
   list-style: none;
 }
 
-/* line 30, ../../Imagens/geec/css/global.scss */
+/* line 30, ../../Documentos/novo-site-geec2/sass/global.scss */
 button {
   cursor: pointer;
 }

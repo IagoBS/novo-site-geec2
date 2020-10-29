@@ -1,4 +1,4 @@
-/* line 59, ../../Imagens/geec/css/login.scss */
+/* line 59, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Container {
   height: 100%;
   display: flex;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-/* line 62, ../../Imagens/geec/css/login.scss */
+/* line 62, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Content {
   width: 90%;
   max-width: 320px;
@@ -15,14 +15,14 @@
   margin-top: 128px;
 }
 
-/* line 13, ../../Imagens/geec/css/login.scss */
+/* line 13, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Content form {
   display: flex;
   flex-direction: column;
   margin-top: 32px;
 }
 
-/* line 17, ../../Imagens/geec/css/login.scss */
+/* line 17, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Content form input {
   background: rgba(0, 0, 0, 0.1);
   border-radius: 8px;
@@ -32,12 +32,12 @@
   margin: 0 0 10px;
 }
 
-/* line 24, ../../Imagens/geec/css/login.scss */
+/* line 24, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Content form input::placeholder {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* line 28, ../../Imagens/geec/css/login.scss */
+/* line 28, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Content form span {
   color: #F64C75;
   align-self: center;
@@ -46,7 +46,7 @@
   font-size: 16px;
 }
 
-/* line 35, ../../Imagens/geec/css/login.scss */
+/* line 35, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Content form button {
   margin: 5px 0 0;
   height: 44px;
@@ -58,12 +58,12 @@
   transition: background 0.2;
 }
 
-/* line 44, ../../Imagens/geec/css/login.scss */
+/* line 44, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Content form button:hover {
   opacity: 0.6;
 }
 
-/* line 48, ../../Imagens/geec/css/login.scss */
+/* line 48, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Content form a {
   color: #fff;
   margin-top: 15px;
@@ -71,7 +71,7 @@
   opacity: 0.8;
 }
 
-/* line 53, ../../Imagens/geec/css/login.scss */
+/* line 53, ../../Documentos/novo-site-geec2/sass/login.scss */
 .Content form a:hover {
   opacity: 1;
 }

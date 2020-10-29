@@ -2,7 +2,7 @@
 	"version": 3,
 	"file": "mobile.css",
 	"sources": [
-		"../css/mobile.scss"
+		"../sass/mobile.scss"
 	],
 	"sourcesContent": [
 		"@mixin device($device) {\n  @if $device == mobile {\n    @media (max-width: 481px) {\n      @content;\n    }\n  } @else if $device == tablet {\n    @media (max-width: 768px) {\n      @content;\n    }\n  } @else if $device == desktop {\n    @media (max-width: 1024px) {\n      @content\n    }\n  }\n}"

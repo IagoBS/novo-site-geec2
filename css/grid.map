@@ -2,7 +2,7 @@
 	"version": 3,
 	"file": "grid.css",
 	"sources": [
-		"../css/grid.scss"
+		"../sass/grid.scss"
 	],
 	"sourcesContent": [
 		"$container: 1440px;\n$gutter: 20;\n$column: 12;\n%grid {\n  float: left;\n  margin-left: ($gutter/2) + px;\n  margin-right: ($gutter/2) + px;\n}\n@for $i from 1 through $column {\n  $width: $container / $column * $i - $gutter;\n  .grid-#{$i} {\n    @extend %grid;\n    width: $width +px;\n\n  }\n}\n .container {\n   width: $container +px;\n   margin: 0 auto;\n   padding: 0px;\n   position: relative;\n }\n .container:after, .container:before {\n   content: \" \";\n   display: table;\n }\n .container:after {\n   clear: both;\n }\n\n @media only  screen and (min-width: 768px) and (max-width: 959) {\n\n\n  $container: 768px;\n \n  @for $i from 1 through $column {\n  $width: $container / $column * $i - $gutter;\n  .grid-#{$i} {\n    width: $width +px;\n  }\n  .container {\n    width: $container +px;\n  }\n}\n }\n @media only  screen and (max-width: 767px) {\n  $container: 300px;\n  %mobile {\n    width: $container+px;\n    margin: 0 0 20px 0;\n    float: none;\n  }\n \n  @for $i from 1 through $column {\n  $width: $container / $column * $i - $gutter;\n  .grid-#{$i} {\n    @extend %mobile;\n  }\n  .container {\n    width: $container+px;\n  }\n\n  }\n }\n"

@@ -2,7 +2,7 @@
 	"version": 3,
 	"file": "global.css",
 	"sources": [
-		"../css/global.scss"
+		"../sass/global.scss"
 	],
 	"sourcesContent": [
 		"* {\n  margin: 0;\n  padding: 0;\n  outline: 0;\n  box-sizing: border-box;\n  &:focus {\n    outline: 0;\n  }\n  &::before, &::after {\n    margin: 0;\n    padding: 0;\n    box-sizing: border-box;\n  }\n}\nhtml {  \n  text-rendering: optimizeLegibility !important;\n  -webkit-font-smoothing: antialiased !important;\n  font-family: 'Roboto' sans-serif;\n  font-size: 10px;\n}\nbody, input, button {\n  font: 14px 'Roboto', sans-serif;\n}\na {\n  text-decoration: none;\n}\nul {\n  list-style: none;\n}\nbutton {\n  cursor: pointer;\n}\n"
