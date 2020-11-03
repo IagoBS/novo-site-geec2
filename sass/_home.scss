@@ -1,0 +1,39 @@
+.content-home {
+    padding: 0 15px;
+    margin: 0 auto;
+   > h1 {
+       display: flex;
+       align-items: center;
+       justify-content: start;
+       padding: 10px;
+       font-size: 63px;
+       font-weight: bold;
+       line-height: 158.34%;
+       text-align: start;
+        margin-left: 110px;
+       color: #C9FF00;
+       text-transform: uppercase;
+       text-decoration-line: underline;
+       text-decoration-color:#85DA77;
+       
+    span {
+        text-transform: uppercase;
+        
+        color: #00A1ED;
+    }
+   }
+   section {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1024px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    p {
+        color: #707070;
+        font-size: 25px;
+    }
+   }
+}

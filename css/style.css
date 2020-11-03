@@ -1,6 +1,6 @@
 /* line 1, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .header-menu {
-  height: 264px;
+  height: 410px;
   position: relative;
   width: 100%;
   padding: 0 15px;
@@ -14,45 +14,53 @@
   z-index: 1;
 }
 
-/* line 17, ../../Documentos/novo-site-geec2/sass/_header.scss */
-.images {
-  display: flex;
-  align-items: center;
-}
-
-/* line 20, ../../Documentos/novo-site-geec2/sass/_header.scss */
-.images img {
-  height: 320px;
-  width: 400px;
-}
-
-/* line 25, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 18, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar {
   width: 100%;
-  height: 96px;
   display: block;
   align-items: center;
-  justify-content: space-evenly;
-  text-transform: uppercase;
   background-color: transparent;
-  margin-top: 160px;
   text-align: center;
 }
 
-/* line 35, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 24, ../../Documentos/novo-site-geec2/sass/_header.scss */
+.sidebar .images {
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/* line 30, ../../Documentos/novo-site-geec2/sass/_header.scss */
+.sidebar .images .imagem-logo {
+  height: 200px;
+  width: 300px;
+}
+
+/* line 34, ../../Documentos/novo-site-geec2/sass/_header.scss */
+.sidebar .images .imagem-menina {
+  height: 425px;
+  width: 450px;
+}
+
+/* line 39, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar ul {
+  text-transform: uppercase;
   display: flex;
   list-style: none;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
+  margin-top: 8px;
 }
 
-/* line 41, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 48, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar ul li {
   text-align: center;
-  margin-top: 60px;
 }
 
-/* line 44, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 50, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar ul li a {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
@@ -65,7 +73,7 @@
   margin: 10px 10px 5px;
 }
 
-/* line 56, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 62, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar ul li .nav-item-1 {
   text-align: center;
   border-radius: 4px;
@@ -75,7 +83,7 @@
   background: #E74C3C;
 }
 
-/* line 65, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 71, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar ul li .nav-item-2 {
   text-align: center;
   border-radius: 4px;
@@ -85,7 +93,7 @@
   background: #2ECC71;
 }
 
-/* line 73, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 79, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar ul li .nav-item-3 {
   text-align: center;
   border-radius: 4px;
@@ -95,7 +103,7 @@
   background: #E8C900;
 }
 
-/* line 81, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 87, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar ul li .nav-item-4 {
   text-align: center;
   border-radius: 4px;
@@ -105,7 +113,7 @@
   background: #59C1EA;
 }
 
-/* line 89, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 95, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar ul li .nav-item-5 {
   text-align: center;
   border-radius: 4px;
@@ -115,7 +123,7 @@
   background: #6B994A;
 }
 
-/* line 97, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 103, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .sidebar ul li .nav-item-6 {
   text-align: center;
   border-radius: 4px;
@@ -125,12 +133,12 @@
   background: #0085D3;
 }
 
-/* line 109, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 115, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .hamburguer {
   display: none;
 }
 
-/* line 112, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 118, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .hamburguer i {
   font-size: 3rem;
   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
@@ -138,9 +146,56 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* line 118, ../../Documentos/novo-site-geec2/sass/_header.scss */
+/* line 124, ../../Documentos/novo-site-geec2/sass/_header.scss */
 .hamburguer .fa-times {
   display: none;
+}
+
+/* line 1, ../../Documentos/novo-site-geec2/sass/_home.scss */
+.content-home {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+/* line 4, ../../Documentos/novo-site-geec2/sass/_home.scss */
+.content-home > h1 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 10px;
+  font-size: 63px;
+  font-weight: bold;
+  line-height: 158.34%;
+  text-align: start;
+  margin-left: 110px;
+  color: #C9FF00;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+  text-decoration-color: #85DA77;
+}
+
+/* line 19, ../../Documentos/novo-site-geec2/sass/_home.scss */
+.content-home > h1 span {
+  text-transform: uppercase;
+  color: #00A1ED;
+}
+
+/* line 25, ../../Documentos/novo-site-geec2/sass/_home.scss */
+.content-home section {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1024px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* line 34, ../../Documentos/novo-site-geec2/sass/_home.scss */
+.content-home section p {
+  color: #707070;
+  font-size: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */
